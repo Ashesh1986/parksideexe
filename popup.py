@@ -4,7 +4,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver import ActionChains
 
-#declaring browser path (We need to download dirver for whichever browser we want to run test)
+#declaring browser path (We need to download dirver for whichever browser we want to run test and give path below)
 driver=webdriver.Chrome(executable_path="C:\Chrome\chromedriver.exe")
 
 #declaring "target" which we want to open using above browser

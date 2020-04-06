@@ -3,7 +3,7 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-#declaring browser path (We need to download dirver for whichever browser we want to run test)
+#declaring browser path (We need to download dirver for whichever browser we want to run test and give path below)
 
 driver=webdriver.Chrome(executable_path="C:\Chrome\chromedriver.exe")
 

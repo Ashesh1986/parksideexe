@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 
+#declaring browser path (We need to download dirver for whichever browser we want to run test and give path below)
 driver=webdriver.Chrome(executable_path="C:\Chrome\chromedriver.exe")
 driver.get("https://en.wikipedia.org/wiki/Metis_(mythology)")
 driver.maximize_window()
